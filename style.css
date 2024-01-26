@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+</style>
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: #A09CB0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif ;
+    border-radius: 5px;
+}
+
+header h1{
+    padding-top:50px ;
+}
+
+header p{
+    padding-bottom: 50px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 2em;
+    padding-left: 30px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section p{
+    font-family: 'Single Day', cursive;
+    font-weight: normal;
+    font-size: 1.5em;
+    padding-bottom: 1em;
+    
+}
+
+section.imagem{
+    background-color: rgb(59, 59, 59);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.37);
+    background-attachment: fixed;
+}
+
+section.imagem p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.575);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.692);
+    background-size: cover;
+}
+
+section#img01{
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+    text-shadow: 2px 2px 0px black;
+    background-size: cover;
+}
+
+section#img02{
+    background-image: url('imagens/background002.jpg');
+    background-position: bottom;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
